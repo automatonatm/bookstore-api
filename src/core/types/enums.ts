@@ -1,0 +1,48 @@
+export enum BookGenre {
+  FICTION = 'FICTION',
+  NONFICTION = 'NON-FICTION',
+  MYSTERY = 'MYSTERY',
+  FANTASY = 'FANTASY',
+  SCIENCE_FICTION = 'SCIENCE FICTION',
+  BIOGRAPHY = 'BIOGRAPHY',
+  HISTORICAL = 'HISTORICAL',
+  ROMANCE = 'ROMANCE',
+  THRILLER = 'THRILLER',
+  SELF_HELP = 'SELF-HELP',
+  HORROR = 'HORROR',
+  ADVENTURE = 'ADVENTURE',
+  CHILDREN = 'CHILDREN',
+  YOUNG_ADULT = 'YOUNG ADULT',
+  POETRY = 'POETRY',
+  DRAMA = 'DRAMA',
+  SCIENCE = 'SCIENCE',
+  PHILOSOPHY = 'PHILOSOPHY',
+  TRAVEL = 'TRAVEL',
+  HEALTH = 'HEALTH',
+  RELIGION = 'RELIGION',
+  HUMOR = 'HUMOR',
+  COOKBOOKS = 'COOKBOOKS',
+  ART = 'ART',
+  SPORTS = 'SPORTS',
+  TRUE_CRIME = 'TRUE CRIME',
+}
+
+export enum BookSortBy {
+  TITLE = 'title',
+  AUTHOR = 'author',
+  GENRE = 'genre',
+  PRICE = 'price',
+  STOCK = 'stock',
+  CREATED_AT = 'createdAt',
+}
+
+export enum SortOrder {
+  ASC = 'asc',
+  DESC = 'desc',
+}
+
+export enum OrderStatus {
+  PENDING = 'PENDING',
+  COMPLETED = 'COMPLETED',
+  CANCELLED = 'CANCELLED',
+}
